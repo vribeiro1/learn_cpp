@@ -56,17 +56,3 @@ vector<double> merge_sort(vector<double> A, int p, int r) {
 vector<double> merge_sort(vector<double> A) {
     return merge_sort(A, 0, A.size() - 1);
 }
-
-
-int main() {
-    vector<double> A = {5, 2, 4, 7, 1, 3, 2, 6};
-
-    vector<double> sorted_A = merge_sort(A);
-
-    for (int i = 0; i < sorted_A.size(); i++) {
-        cout << sorted_A[i] << " ";
-    }
-    cout << "\n";
-
-    return 0;
-}

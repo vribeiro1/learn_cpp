@@ -21,17 +21,3 @@ vector<double> insertion_sort(vector<double> A) {
 
     return A;
 }
-
-
-int main() {
-    vector<double> A = {5, 2, 4, 7, 1, 3, 2, 6};
-
-    vector<double> sorted_A = insertion_sort(A);
-
-    for (int i = 0; i < sorted_A.size(); i++) {
-        cout << sorted_A[i] << " ";
-    }
-    cout << "\n";
-
-    return 0;
-}
